@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM-1</title>
+    <style>
+        .bgColor {
+            background-color: lightcoral;
+        }
+        
+        .ftSize {
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    示例
+    <!-- 任务37 -->
+    <div id="test_1">
+        test
+        <div class="red">div标签</div> test1
+        <p class="red">段落标签</p> test1
+    </div>
+    <!-- 任务37 end -->
+    <div id="dad">
+        <div id="test">
+            test
+            <div class="red">div标签</div> test1
+            <p class="red">段落标签</p> test1
+        </div>
+        <div id="test2">
+            <p class="red">段落标签3</p> test2
+        </div>
+    </div>
+    <!-- empty test -->
+    <div id="empty">
+        <div id="e1"></div>
+        <div id="e2"></div>
+        <div id="e3"></div>
+    </div>
+
+    <div id="siblings">
+        <div id="s1"></div>
+        <div id="s2"></div>
+        <div id="s3"></div>
+    </div>
+    <div id="travel">
+        <div id="t1">t1</div>
+        <div id="t2">t2</div>
+        <div id="t3">t3</div>
+    </div>
+
+    <!-- JS -->
+    <script src="dom.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
